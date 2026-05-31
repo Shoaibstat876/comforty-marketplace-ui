@@ -1,136 +1,157 @@
-# Comforty - Your Ultimate Furniture Solution
+# Comforty Marketplace UI
 
-Welcome to **Comforty**, a meticulously designed project crafted to showcase the elegance and functionality of a furniture collection. This project emphasizes **responsive design**, **pixel-perfect layouts**, and a seamless user experience. Built with the latest technologies, Comforty ensures top-notch performance and scalability.
+Comforty Marketplace UI is a responsive furniture marketplace frontend built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
----
+This project presents a modern furniture shopping interface with product listings, product cards, cart UI, checkout page, review inputs, and order summary sections. It was created to practice building a polished e-commerce style frontend using a modern web development stack.
 
-## **Table of Contents**
+## Table of Contents
+
 1. [Project Overview](#project-overview)
 2. [Features](#features)
 3. [Tech Stack](#tech-stack)
 4. [Installation and Setup](#installation-and-setup)
 5. [File Structure](#file-structure)
 6. [Usage Instructions](#usage-instructions)
-7. [Screenshots](#screenshots)
+7. [Current Status](#current-status)
 8. [Future Improvements](#future-improvements)
-9. [Author's Note](#authors-note)
+9. [Author](#author)
 
 ---
 
-## **Project Overview**
-Comforty is a furniture e-commerce platform designed with a primary focus on:
-- Showcasing furniture products with clean and modern UI.
-- Ensuring responsive layouts for all screen sizes.
-- Delivering high performance and a bug-free experience.
+## Project Overview
+
+Comforty is a furniture marketplace frontend focused on clean product presentation and user-friendly shopping screens.
+
+The project includes multiple e-commerce UI sections such as a hero section, featured products, product cards, category sections, review input UI, cart page, checkout page, order summary, newsletter section, and footer navigation.
+
+This project is focused on frontend development and UI implementation. It does not include a production backend, real payment processing, or a database yet.
 
 ---
 
-## **Features**
-- **Home Page:** Hero section, branding cards, featured products, categories, and more.
-- **Product Page:** Detailed product views, responsive grid layouts.
-- **Cart Functionality:** Interactive cart page with summary and item management.
-- **Contact Us Page:** Elegant contact form with interactive fields.
-- **FAQ Section:** Informative section addressing common user queries.
-- **Responsive Design:** Tailored layouts for mobile, tablet, and desktop views.
-- **Optimized Performance:** Leveraging Next.js features for faster load times.
+## Features
+
+* Responsive furniture marketplace layout
+* Hero section with call-to-action
+* Featured products section
+* Product cards with images, prices, sale labels, and cart icons
+* Furniture category sections
+* Review input UI for products
+* Product detail navigation UI
+* Cart page with product quantity and remove button
+* Checkout page with shipping form fields
+* Order summary with subtotal, shipping, and total price
+* Newsletter subscription UI
+* Footer with category and support links
+* Deployed on Vercel
 
 ---
 
-## **Tech Stack**
-- **Frontend Framework:** [Next.js](https://nextjs.org/) (Version 15+)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/) and custom CSS
-- **Language:** TypeScript
-- **Icons:** React Icons
-- **Images:** Next.js Image Optimization
-- **Node.js Version:** 22+
+## Tech Stack
+
+* **Frontend Framework:** Next.js
+* **Library:** React
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS and custom CSS
+* **Icons:** React Icons
+* **Deployment:** Vercel
 
 ---
 
-## **Installation and Setup**
+## Installation and Setup
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/comforty.git
-   cd comforty
-   ```
+Clone the repository:
 
-2. **Install Dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Run the Development Server:**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open in Browser:**
-   Navigate to `http://localhost:3000` to view the project.
-
----
-
-## **File Structure**
+```bash
+git clone https://github.com/Shoaibstat876/comforty-marketplace-ui.git
 ```
-comforty/
-├── public/               # Static assets (images, fonts, etc.)
+
+Go to the project folder:
+
+```bash
+cd comforty-marketplace-ui
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## File Structure
+
+```bash
+comforty-marketplace-ui/
+├── public/
+├── scripts/
 ├── src/
-│   ├── components/       # Reusable components (e.g., Header, Footer, Layout)
-│   ├── pages/            # Application pages (e.g., Home, Product, Contact)
-│   ├── styles/           # Global CSS and Tailwind configuration
-│   ├── utils/            # Utility functions (if any)
-│   ├── app.tsx          # Application entry point
-└── README.md            # Documentation
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
 ```
 
 ---
 
-## **Usage Instructions**
-1. **Explore Products:**
-   - Browse featured products and categories from the home page.
-   - View detailed product pages with descriptions, prices, and add-to-cart functionality.
+## Usage Instructions
 
-2. **Manage Cart:**
-   - Add products to the cart, update quantities, and view order summary.
+### Explore Products
 
-3. **Contact Support:**
-   - Use the contact form for inquiries or assistance.
+Users can browse featured products, furniture categories, and product cards from the homepage.
 
-4. **FAQs:**
-   - Navigate to the FAQ page for quick answers to common questions.
+### View Product UI
 
----
+The project includes product card layouts with images, prices, sale labels, cart icons, review inputs, and view details buttons.
 
-## **Screenshots**
-- **Home Page:**
-  ![Home Page](https://via.placeholder.com/800x400)
+### Cart UI
 
-- **Product Page:**
-  ![Product Page](https://via.placeholder.com/800x400)
+Users can view a cart-style page with product quantity, remove button, subtotal, shipping, and total price sections.
 
-- **Cart Page:**
-  ![Cart Page](https://via.placeholder.com/800x400)
+### Checkout UI
+
+The checkout page includes shipping form fields, order summary, total price, and place order button UI.
 
 ---
 
-## **Future Improvements**
-- **Search Functionality:** Add a search bar for easier product navigation.
-- **User Authentication:** Enable user accounts and saved preferences.
-- **Dark Mode:** Provide a theme toggle for light and dark modes.
-- **API Integration:** Connect with a backend for dynamic product management.
+## Current Status
+
+This is a frontend marketplace UI project with live deployment.
+
+It includes product, cart, checkout, review, and order summary interfaces. It is not a full production e-commerce system yet because backend APIs, database, authentication, and real payment processing are not implemented.
 
 ---
 
-## **Author's Note**
-Building Comforty was an exciting journey of combining **design excellence** with **technical precision**. Special attention was given to maintaining a consistent aesthetic while ensuring top-notch performance. This project reflects my dedication to delivering **clean code** and **impeccable design**.
+## Future Improvements
 
-For inquiries or suggestions, feel free to reach out!
+* Add real product search functionality
+* Add product filtering and sorting
+* Add product detail pages with dynamic routing
+* Add persistent cart state
+* Add local storage or database support
+* Add backend API integration
+* Add authentication
+* Add real checkout/payment flow
+* Improve mobile responsiveness
+* Add real screenshots to README
+* Clean unused files after final review
 
 ---
 
-### **Contact**
-- **Email:** your-email@example.com
-- **GitHub:** [Your GitHub Profile](https://github.com/your-username)
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-username)
+## Author
 
-Thank you for exploring Comforty! 🌟
+**Muhammad Shoaib Abdul Shakoor**
 
+Focused on AI automation, full-stack development, frontend interfaces, backend APIs, and practical AI-native applications.
