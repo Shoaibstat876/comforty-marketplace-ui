@@ -28,6 +28,18 @@ This project is focused on frontend development and UI implementation. It does n
 
 ---
 
+## Learning Outcomes
+
+This project helped strengthen practical frontend development skills, including:
+
+* Building responsive marketplace layouts with Next.js
+* Creating reusable React components
+* Working with TypeScript in a real UI project
+* Designing product, cart, and checkout interfaces
+* Styling applications with Tailwind CSS
+* Structuring larger frontend projects for maintainability
+* Deploying frontend applications using Vercel
+
 ## Features
 
 * Responsive furniture marketplace layout
